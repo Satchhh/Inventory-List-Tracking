@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>InventoryApp</RootNamespace>
+    <AssemblyName>InventoryApp</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- ClosedXML reads and writes .xlsx without needing Excel installed -->
+    <PackageReference Include="ClosedXML" Version="0.104.1" />
+  </ItemGroup>
+
+</Project>
